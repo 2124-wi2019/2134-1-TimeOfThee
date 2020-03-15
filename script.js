@@ -24,8 +24,8 @@ window.addEventListener('load', function() {
             var p=document.createElement('p');//make ele
             var h=appendChild=document.createTextNode(err[0]+err[1]+err[2]);//add errror
             document.getElementById('error-holder').className='error-box';
-            document.getElementById('error-holder').innerText='';
-            document.getElementById('error-holder').appendChild(h);
+            document.getElementById('error-holder').innerText='';//clear err
+            document.getElementById('error-holder').appendChild(h);//add err
         }
     })   
     /* and this comment */
